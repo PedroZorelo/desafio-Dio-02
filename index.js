@@ -1,9 +1,9 @@
 //Solicita o número de vitórias e derrotaS ao usuário 
-let vitorias = ("Digite o número de vitórias:");
-let derrotas = ("Digite o número de derrotas");
+const vitorias = ("10");
+const derrotas = ("5");
 
 function calcularNivel(vitorias, derrotas){
-      let saldoVitorias = vitorias - derrotas 
+      const saldoVitorias = 10 - 5 
 
       let nivel;
 
@@ -24,9 +24,9 @@ function calcularNivel(vitorias, derrotas){
       }
 
       //Retornar o resultado
-      return ("O Herói tem saldo de"    + ( vitorias) +  " vitórias e está no nivel de "  + (nivel) );
+      return ("O Herói tem saldo de "    + ( vitorias) +  " vitórias e está no nivel de "  + (nivel) );
 
 }
 
-let resultado = calcularNivel(vitorias,derrotas);
+const resultado = calcularNivel(vitorias,derrotas);
 console.log(resultado);
