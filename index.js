@@ -3,7 +3,7 @@ const vitorias = ("10");
 const derrotas = ("5");
 
 function calcularNivel(vitorias, derrotas){
-      const saldoVitorias = 10 - 5 
+      const saldoVitorias = vitorias - derrotas 
 
       let nivel;
 
